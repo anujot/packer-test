@@ -9,7 +9,7 @@
     "region": "us-west-2",
     "source_ami": "{{user `ami_id`}}",
     "instance_type": "t2.micro",
-    "ssh_username": "ec2-user",
+    "ssh_username": "ubuntu",
     "ami_name": "PACKER-DEMO-{{user `app_name` }}",
     "tags": {
         "Name": "PACKER-DEMO-{{user `app_name` }}",
