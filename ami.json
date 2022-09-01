@@ -1,12 +1,12 @@
 {
   "variables": {
-    "ami_id": "ami-0c2ab3b8efb09f272",
+    "ami_id": "ami-0ddf424f81ddb0720",
     "app_name": "httpd"
   },
 
   "builders": [{
     "type": "amazon-ebs",
-    "region": "us-east-1",
+    "region": "us-west-2",
     "source_ami": "{{user `ami_id`}}",
     "instance_type": "t2.micro",
     "ssh_username": "ec2-user",
