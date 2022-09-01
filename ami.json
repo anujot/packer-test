@@ -1,6 +1,6 @@
 {
   "variables": {
-    "ami_id": "ami-047ea900427888be7",
+    "ami_id": "ami-0c2ab3b8efb09f272",
     "app_name": "httpd"
   },
 
